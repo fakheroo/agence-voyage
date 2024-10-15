@@ -1,0 +1,9 @@
+#navbarNav {
+    display: flex ;
+    justify-content: flex-end ;
+
+}
+
+.hero_section {
+    background-image: url("agence.jpg");;
+}

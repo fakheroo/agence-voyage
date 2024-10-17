@@ -1,9 +1,63 @@
 #navbarNav {
     display: flex ;
     justify-content: flex-end ;
+    
 
+}
+address {
+    color: chocolate;
+    background-color: blanchedalmond;
 }
 
 .hero_section {
-    background-image: url("agence.jpg");;
+    background-image: url("agence.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    flex: auto;
+    height: 400px;
+    padding: 50px;
+    
 }
+
+
+.hero_section2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-content: flex-start;
+    background-color: rgba(246, 246, 246, 0.779);
+    background-size: cover;
+    height: 250px;
+    background-position: center;
+    width: 100% ;
+    padding: 10px;
+
+}
+
+.test {
+    color: brown;
+}
+
+h1 {
+    border: solid;
+    border-color: blanchedalmond;
+}
+
+#text1 {
+    font-size: xx-large;
+    font-weight: 1000;
+    margin: 40px;
+   
+}
+#text2 {
+    font-size: xx-large;
+    font-weight: 700;
+    color: midnightblue;
+    width: 40% ;
+ }
+
+
+    
+
